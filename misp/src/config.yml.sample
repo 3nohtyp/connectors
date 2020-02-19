@@ -1,9 +1,10 @@
+  
 opencti:
   url: 'http://localhost:8080'
-  token: 'ChangeMe'
+  token: 'df8635b1-39b5-41c2-8873-2f19b0e6ca8c'
 
 connector:
-  id: 'ChangeMe'
+  id: '7a9d21f1-9dbf-4ba5-bb81-99cf1b4cecf2'
   type: 'EXTERNAL_IMPORT'
   name: 'MISP' # Required
   scope: 'misp'
@@ -12,8 +13,8 @@ connector:
   log_level: 'info'
 
 misp:
-  url: 'http://localhost' # Required
-  key: 'ChangeMe' # Required
+  url: 'https://192.168.83.176/events/restSearch' # 'http://localhost' Required
+  key: 'tqd3z1gwmXuax3L8GOLJQgdPa8wPpsn7dMEtIfDL' # 'ChangeMe' Required
   ssl_verify: False # Required
   create_reports: True # Required, create report for MISP event
   report_class: 'MISP event' # Optional, report_class if creating report for event
