@@ -21,4 +21,3 @@ services:
       - MISP_IMPORT_TAGS=opencti:import,type:osint # Optional, list of tags used for import events
       - MISP_INTERVAL=1 # Required, in minutes
     restart: always
-	
